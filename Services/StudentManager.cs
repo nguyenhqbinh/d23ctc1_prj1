@@ -68,7 +68,7 @@ namespace prj1.Services
             return _students;
         }
 
-        // 2b. Sắp xếp danh sách sinh viên theo tiêu chí được chọn
+        // 2b. Hàm Sắp xếp danh sách sinh viên theo tiêu chí được chọn
         public List<Student> SortStudents(string sortBy = "id", bool ascending = true)
         {
             if (!_students.Any())
